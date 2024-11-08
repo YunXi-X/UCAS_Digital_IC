@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="BB_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="BB_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999,993 ps"></ZoomStartTime>
+      <ZoomEndTime time="1,000,002 ps"></ZoomEndTime>
+      <Cursor1Time time="1,000,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="191"></NameColumnWidth>
+      <ValueColumnWidth column_width="183"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="/BB_tb/bin_in" type="array">
+      <obj_property name="ElementShortName">bin_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bin_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BB_tb/bcd_out" type="array">
+      <obj_property name="ElementShortName">bcd_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">bcd_out[9:0]</obj_property>
+   </wvobject>
+</wave_config>
