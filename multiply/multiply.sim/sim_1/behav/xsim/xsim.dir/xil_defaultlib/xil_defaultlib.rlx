@@ -1,0 +1,11 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+G:/Vivado/multiply/multiply.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+G:/Vivado/multiply/multiply.srcs/sources_1/new/booth.v,1732988327,verilog,,G:/Vivado/multiply/multiply.srcs/sources_1/new/booth_encoder.v,,booth,,,,,,,,
+G:/Vivado/multiply/multiply.srcs/sources_1/new/booth_encoder.v,1732988021,verilog,,G:/Vivado/multiply/multiply.srcs/sources_1/new/partial_pro.v,,booth_encoder,,,,,,,,
+G:/Vivado/multiply/multiply.srcs/sources_1/new/partial_pro.v,1732984783,verilog,,G:/Vivado/multiply/multiply.srcs/sources_1/new/top_mul.v,,partial_pro,,,,,,,,
+G:/Vivado/multiply/multiply.srcs/sources_1/new/tb_multiplier.v,1732983680,verilog,,,,testbench,,,,,,,,
+G:/Vivado/multiply/multiply.srcs/sources_1/new/top_mul.v,1732979155,verilog,,G:/Vivado/multiply/multiply.srcs/sources_1/new/wallace_tree.v,,top_mul,,,,,,,,
+G:/Vivado/multiply/multiply.srcs/sources_1/new/wallace_tree.v,1732980520,verilog,,G:/Vivado/multiply/multiply.srcs/sources_1/new/tb_multiplier.v,,adder;wallace_tree,,,,,,,,

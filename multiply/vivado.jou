@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Fri Dec  6 20:03:01 2024
+# Process ID: 23708
+# Current directory: C:/Users/Exusisa/Desktop/UCAS_Digital_IC/multiply
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8308 C:\Users\Exusisa\Desktop\UCAS_Digital_IC\multiply\multiply.xpr
+# Log file: C:/Users/Exusisa/Desktop/UCAS_Digital_IC/multiply/vivado.log
+# Journal file: C:/Users/Exusisa/Desktop/UCAS_Digital_IC/multiply\vivado.jou
+# Running On        :LAPTOP-V3086H9T
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :Intel(R) Core(TM) i9-14900HX
+# CPU Frequency     :2419 MHz
+# CPU Physical cores:24
+# CPU Logical cores :32
+# Host memory       :33951 MB
+# Swap memory       :2147 MB
+# Total Virtual     :36099 MB
+# Available Virtual :22432 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Exusisa/Desktop/UCAS_Digital_IC/multiply/multiply.xpr
+update_compile_order -fileset sources_1
