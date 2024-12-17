@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sat Nov 23 21:18:18 2024
+# Process ID: 17860
+# Current directory: G:/Vivado/clock/clock.runs/synth_1
+# Command line: vivado.exe -log clock_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clock_top.tcl
+# Log file: G:/Vivado/clock/clock.runs/synth_1/clock_top.vds
+# Journal file: G:/Vivado/clock/clock.runs/synth_1\vivado.jou
+# Running On        :LAPTOP-V3086H9T
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :Intel(R) Core(TM) i9-14900HX
+# CPU Frequency     :2419 MHz
+# CPU Physical cores:24
+# CPU Logical cores :32
+# Host memory       :33951 MB
+# Swap memory       :2147 MB
+# Total Virtual     :36099 MB
+# Available Virtual :19223 MB
+#-----------------------------------------------------------
+source clock_top.tcl -notrace
