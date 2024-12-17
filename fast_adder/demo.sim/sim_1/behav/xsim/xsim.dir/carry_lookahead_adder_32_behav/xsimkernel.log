@@ -1,0 +1,7 @@
+Running: xsim.dir/carry_lookahead_adder_32_behav/xsimk.exe -simmode gui -wdb carry_lookahead_adder_32_behav.wdb -simrunnum 0 -socket 5318
+Design successfully loaded
+Design Loading Memory Usage: 10096 KB (Peak: 10096 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 10672 KB (Peak: 10672 KB)
+Simulation CPU Usage: 0 ms

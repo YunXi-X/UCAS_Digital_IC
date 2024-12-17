@@ -1,0 +1,6 @@
+Time resolution is 1 ps
+Time = 0: a = 00000000, b = 00000000, cin = 0 -> sum = 00000000, cout = 0
+Time = 10000: a = ffffffff, b = 00000001, cin = 0 -> sum = 00000002, cout = 1
+Time = 20000: a = 12345678, b = 87654321, cin = 1 -> sum = 8cc00cde, cout = 0
+Time = 30000: a = aaaaaaaa, b = 55555555, cin = 0 -> sum = ffffffff, cout = 0
+$finish called at time : 40 ns : File "G:/Vivado/demo/demo.srcs/sources_1/new/tb_carry_lookahead_adder_32.v" Line 21

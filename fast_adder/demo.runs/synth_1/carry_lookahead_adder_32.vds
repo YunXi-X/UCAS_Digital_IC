@@ -1,0 +1,194 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Nov 24 14:19:14 2024
+# Process ID: 33624
+# Current directory: G:/Vivado/demo/demo.runs/synth_1
+# Command line: vivado.exe -log carry_lookahead_adder_32.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source carry_lookahead_adder_32.tcl
+# Log file: G:/Vivado/demo/demo.runs/synth_1/carry_lookahead_adder_32.vds
+# Journal file: G:/Vivado/demo/demo.runs/synth_1\vivado.jou
+# Running On        :LAPTOP-V3086H9T
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :Intel(R) Core(TM) i9-14900HX
+# CPU Frequency     :2419 MHz
+# CPU Physical cores:24
+# CPU Logical cores :32
+# Host memory       :33951 MB
+# Swap memory       :2147 MB
+# Total Virtual     :36099 MB
+# Available Virtual :19915 MB
+#-----------------------------------------------------------
+source carry_lookahead_adder_32.tcl -notrace
+create_project: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 655.820 ; gain = 199.441
+Command: synth_design -top carry_lookahead_adder_32 -part xc7vx485tffg1157-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 33196
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:00 ; elapsed = 00:00:03 . Memory (MB): peak = 1119.754 ; gain = 460.008
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'carry_lookahead_adder_32' [G:/Vivado/demo/demo.srcs/sources_1/new/carry_lookahead_adder_32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'carry_lookahead_adder_32' (0#1) [G:/Vivado/demo/demo.srcs/sources_1/new/carry_lookahead_adder_32.v:1]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 1229.094 ; gain = 569.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1229.094 ; gain = 569.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1229.094 ; gain = 569.348
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1229.094 ; gain = 569.348
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+INFO: [Device 21-9227] Part: xc7vx485tffg1157-1 does not have CEAM library.
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1576.902 ; gain = 917.156
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1578.215 ; gain = 918.469
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1578.215 ; gain = 918.469
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 1578.219 ; gain = 918.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 1578.219 ; gain = 918.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 1578.219 ; gain = 918.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 1578.219 ; gain = 918.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 1578.219 ; gain = 918.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 1578.219 ; gain = 918.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |    13|
+|2     |LUT3 |    14|
+|3     |LUT5 |    37|
+|4     |LUT6 |    13|
+|5     |IBUF |    65|
+|6     |OBUF |    33|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   175|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 1578.219 ; gain = 918.473
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:03 ; elapsed = 00:00:14 . Memory (MB): peak = 1578.219 ; gain = 918.473
+Synthesis Optimization Complete : Time (s): cpu = 00:00:03 ; elapsed = 00:00:14 . Memory (MB): peak = 1578.219 ; gain = 918.473
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1595.195 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1716.828 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: faea7e4c
+INFO: [Common 17-83] Releasing license: Synthesis
+13 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 1716.828 ; gain = 1061.008
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1716.828 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'G:/Vivado/demo/demo.runs/synth_1/carry_lookahead_adder_32.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file carry_lookahead_adder_32_utilization_synth.rpt -pb carry_lookahead_adder_32_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 24 14:19:38 2024...
