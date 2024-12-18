@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../sqrt_calc.srcs/sources_1/new/sqrt_top.v" \
+"../../../../sqrt_calc.srcs/sources_1/new/tb_sqrt.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

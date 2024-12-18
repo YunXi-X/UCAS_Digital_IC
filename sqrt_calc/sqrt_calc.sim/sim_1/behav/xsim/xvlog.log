@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/UCAS_Digital_IC/sqrt_calc/sqrt_calc.srcs/sources_1/new/sqrt_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sqrt_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/UCAS_Digital_IC/sqrt_calc/sqrt_calc.srcs/sources_1/new/tb_sqrt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_sqrt
+WARNING: [VRFC 10-9277] overflow of 32-bit signed integer 2147483648; using -2147483648 instead [G:/UCAS_Digital_IC/sqrt_calc/sqrt_calc.srcs/sources_1/new/tb_sqrt.v:31]
+WARNING: [VRFC 10-9277] overflow of 32-bit signed integer 4294967295; using -1 instead [G:/UCAS_Digital_IC/sqrt_calc/sqrt_calc.srcs/sources_1/new/tb_sqrt.v:33]
